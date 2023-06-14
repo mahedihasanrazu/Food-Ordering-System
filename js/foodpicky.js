@@ -1,12 +1,4 @@
-/*!
- *  Author Name: MH RONY.
- *  GigHub Link: https://github.com/dev-mhrony
- *  Facebook Link:https://www.facebook.com/dev.mhrony
- *  Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-    for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
- *  Visit My Website : developerrony.com -->* 
-    
-*/
+
 /*
  *  Table of content
  *************************************
@@ -122,9 +114,9 @@ $(document).ready(function () {
   });
   $("#amount").val(
     "$" +
-      $("#slider-range").slider("values", 0) +
-      " - $" +
-      $("#slider-range").slider("values", 1)
+    $("#slider-range").slider("values", 0) +
+    " - $" +
+    $("#slider-range").slider("values", 1)
   );
 
   ////// Increment and decrement select box
